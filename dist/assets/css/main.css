@@ -29,7 +29,7 @@ a:hover { text-decoration-thickness: 2px; }
 .skip { position: absolute; left: -999px; } .skip:focus { left: 1rem; top: 1rem; background: var(--surface); padding: .5rem 1rem; z-index: 10; }
 h1, h2, h3, .eyebrow, nav, .meta, .links, .btn, .chips, footer { font-family: var(--sans); }
 h1, h2, h3 { line-height: 1.2; letter-spacing: -0.015em; margin: 0 0 .6em; }
-h1 { font-size: clamp(1.8rem, 3.6vw, 2.5rem); font-weight: 700; }
+h1 { font-size: 1.1rem; font-weight: 500; color: var(--ink); }
 h2 { font-size: 1.6rem; font-weight: 650; }
 h3 { font-size: 1.1rem; font-weight: 600; }
 .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 600; color: var(--gold); margin: 0 0 .8rem; }

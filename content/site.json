@@ -15,12 +15,12 @@
       "href": "index.html"
     },
     {
-      "label": "Research",
-      "href": "research.html"
-    },
-    {
       "label": "Writing",
       "href": "writing.html"
+    },
+    {
+      "label": "Research",
+      "href": "research.html"
     }
   ],
   "links": []
