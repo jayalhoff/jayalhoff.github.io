@@ -29,7 +29,7 @@ a:hover { text-decoration-thickness: 2px; }
 .skip { position: absolute; left: -999px; } .skip:focus { left: 1rem; top: 1rem; background: var(--surface); padding: .5rem 1rem; z-index: 10; }
 h1, h2, h3, .eyebrow, nav, .meta, .links, .btn, .chips, footer { font-family: var(--sans); }
 h1, h2, h3 { line-height: 1.2; letter-spacing: -0.015em; margin: 0 0 .6em; }
-h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; }
+h1 { font-size: clamp(1.8rem, 3.6vw, 2.5rem); font-weight: 700; }
 h2 { font-size: 1.6rem; font-weight: 650; }
 h3 { font-size: 1.1rem; font-weight: 600; }
 .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 600; color: var(--gold); margin: 0 0 .8rem; }
@@ -38,9 +38,10 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 /* ---------- Header ---------- */
 .site-header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .9rem; flex-wrap: wrap; }
-.brand { font: 650 1.05rem var(--sans); color: var(--ink); text-decoration: none; letter-spacing: -.01em; }
+.brand { font: 500 1.1rem var(--sans); color: var(--ink); text-decoration: none; padding-block: .3rem; }
+nav { margin-left: auto; }
 nav ul { list-style: none; display: flex; gap: 1.6rem; margin: 0; padding: 0; }
-nav a { font-size: .92rem; font-weight: 500; color: var(--muted); text-decoration: none; padding-block: .3rem; border-bottom: 2px solid transparent; }
+nav a { font-size: 1.1rem; font-weight: 500; color: var(--muted); text-decoration: none; padding-block: .3rem; border-bottom: 2px solid transparent; }
 nav a:hover { color: var(--ink); }
 nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--gold); }
 
@@ -76,7 +77,6 @@ nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--gold)
 
 /* ---------- Writing ---------- */
 .year { padding-block: 1rem 1.5rem; }
-.year > h2 { font-size: 1.1rem; color: var(--gold); letter-spacing: .08em; padding-bottom: .5rem; border-bottom: 1px solid var(--rule); }
 .paper { padding: 1rem 0 1.2rem; }
 .paper + .paper { border-top: 1px solid var(--rule); }
 .paper h3 { font: 600 1.22rem/1.35 var(--serif); margin: 0 0 .25rem; }

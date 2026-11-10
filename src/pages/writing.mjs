@@ -4,12 +4,6 @@ import { paperCard } from "../components/paper.mjs";
 export const file = "writing.html";
 
 export function writing({ papers, meta }) {
-  const years = new Map();
-  for (const p of papers) {
-    const y = p.published.slice(0, 4);
-    if (!years.has(y)) years.set(y, []);
-    years.get(y).push(p);
-  }
   const synced = meta.fetchedAt ? meta.fetchedAt.slice(0, 10) : "";
   return {
     file,
@@ -21,12 +15,9 @@ export function writing({ papers, meta }) {
       <p class="lead">Preprints, listed automatically from <a href="https://arxiv.org" rel="noopener noreferrer" target="_blank">arXiv</a>. ${papers.length} papers${synced ? html` · last synced <time datetime="${synced}">${synced}</time>` : ""}.</p>
     </section>
     <div class="wrap">
-      ${[...years].map(
-        ([year, list]) => html`<section class="year" aria-labelledby="${`y${year}`}">
-          <h2 id="${`y${year}`}">${year}</h2>
-          ${list.map((p) => paperCard(p))}
-        </section>`,
-      )}
+      <section class="year">
+        ${papers.map((p) => paperCard(p))}
+      </section>
     </div>`,
   };
 }
