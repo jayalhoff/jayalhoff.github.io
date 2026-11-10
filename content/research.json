@@ -1,0 +1,46 @@
+{
+  "title": "Research",
+  "lead": "My work asks how geometric constraints, such as bounded curvature or a minimum thickness, shape the topology and the optimal configurations of curves, ribbons and disk systems.",
+  "themes": [
+    {
+      "id": "variational-rigidity",
+      "title": "Variational rigidity and contact strata",
+      "status": "Current programme",
+      "body": [
+        "A unified variational method for disk diagrams, finite packing problems and perimeter minimisation under geometric constraints. Configurations are stratified by their *contact graphs* (which disks touch), and the admissible deformations at each stratum are governed by the active contacts.",
+        "First- and second-order variational analysis on these strata gives a systematic way to decide when a configuration is rigid, when it can flex, and when it is minimal."
+      ],
+      "papers": ["2608.06513"]
+    },
+    {
+      "id": "ribbon-knots",
+      "title": "Critical ribbon loops and Gordian unknots",
+      "status": "Current programme",
+      "body": [
+        "Ribbons of fixed width and curvature bound can be topologically trivial and still be geometrically locked. The *Gordian unknot conjecture* asserts that such geometrically distinct unknots exist, and that they cannot be untied through constrained deformations.",
+        "The same ideas extend to links, where one studies *Gordian unlinks* and the geometric constraints that obstruct link isotopy."
+      ],
+      "papers": ["2506.04403", "2506.04442", "2502.08499", "2310.14846", "2005.13168"]
+    },
+    {
+      "id": "bounded-curvature",
+      "title": "Bounded curvature paths",
+      "status": "Doctoral work",
+      "body": [
+        "A bounded curvature path is a $C^1$ and piecewise $C^2$ path in a manifold $M$ joining two elements of the tangent bundle $TM$, with curvature bounded by a positive constant. In 1961 Lester Dubins raised the question of the homotopy classes of such paths in the plane; my doctoral dissertation closes the programme he proposed.",
+        "Let $\\Gamma(n)$ be the space of bounded curvature paths with fixed endpoints in $T\\mathbb{R}^2$ and winding number $n$. Four *proximity conditions* on the endpoints give qualitative insight into the topology of $\\Gamma(n)$, for instance the number of homotopy classes it contains.",
+        "The shortest elements of $\\Gamma(n)$ are classified for every $n$ and every pair of endpoints, recovering the CSC and CCC characterisation of Dubins (1957). A continuity argument ensures the curvature bound is never violated during a deformation, which yields the classification of homotopy classes, including classes made exclusively of embedded paths."
+      ],
+      "papers": ["1403.4899", "1403.4930", "1403.4911", "1403.5314", "1404.4378"]
+    },
+    {
+      "id": "polytopes-dynamics",
+      "title": "Polytopes and dynamics",
+      "status": "Collaborations",
+      "body": [
+        "Joint work on compression maps between polytopes, and on topological dynamics over finite directed graphs."
+      ],
+      "papers": ["2506.18534", "1501.07509"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jose-ayala-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Academic website, statically generated from content/ and arXiv. No runtime dependencies.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node scripts/fetch-arxiv.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

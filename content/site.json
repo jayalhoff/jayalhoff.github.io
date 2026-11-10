@@ -1,0 +1,27 @@
+{
+  "name": "José Ayala Hoffmann",
+  "title": "Mathematician",
+  "description": "José Ayala Hoffmann — mathematician at Universidad de Tarapacá, Iquique, Chile. Geometric topology, variational geometry and rigidity theory.",
+  "lang": "en",
+  "affiliation": {
+    "institution": "Universidad de Tarapacá",
+    "unit": "DITEC",
+    "city": "Iquique, Chile"
+  },
+  "email": "jayalhoff@gmail.com",
+  "nav": [
+    {
+      "label": "About",
+      "href": "index.html"
+    },
+    {
+      "label": "Research",
+      "href": "research.html"
+    },
+    {
+      "label": "Writing",
+      "href": "writing.html"
+    }
+  ],
+  "links": []
+}

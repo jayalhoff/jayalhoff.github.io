@@ -1,0 +1,254 @@
+{
+  "fetchedAt": "2026-11-10T20:22:00.703Z",
+  "source": "arxiv.org",
+  "papers": [
+    {
+      "id": "2608.06513",
+      "version": 1,
+      "title": "Intrinsic Geometry of Hard Disk Clusters",
+      "authors": [
+        "José Ayala Hoffmann",
+        "Fabián Henry Vilaxa"
+      ],
+      "published": "2026-08-06T18:52:10Z",
+      "updated": "2026-08-06T18:52:10Z",
+      "abstract": "Put \\(n\\) identical coins on a table with no two overlapping. Which arrangement makes the perimeter of the convex hull of the cluster as small as possible? Despite its elementary statement, the solution of this problem is known only up to four disks. We produce a calculus for hard disk clusters of arbitrary finite size, providing class criticality conditions, first order descent tests, and second order spectral criteria for perimeter minimisation. A central difficulty is that the perimeter formula changes with the hull combinatorics, while the admissible first order geometry changes with the realised contacts. Our approach is guided by the principle that the realised geometry intrinsically determines both the local form of the functional and the admissible motions. As an application, this article takes the first step beyond four disks by providing a solution for the five disk case. The minimum perimeter is \\(10+2π\\), attained in exactly three realised classes. Two admit perimeter preserving flexes, of dimensions one and two, while the third is rigid modulo rigid motions. The first order theory provides pruning criteria, and the reduced admissible space together with its intrinsic Hessian distinguish rigidity, second order instability, and perimeter flat degeneracy.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2506.18534",
+      "version": 1,
+      "title": "Compression Maps Between Polytopes",
+      "authors": [
+        "José Ayala",
+        "David Kirszenblat",
+        "J. Hyam Rubinstein"
+      ],
+      "published": "2025-06-23T11:45:28Z",
+      "updated": "2025-06-23T11:45:28Z",
+      "abstract": "A shape of a combinatorial polytope is a convex embedding into Euclidean space. We provide necessary and sufficient conditions for a piecewise linear map between two shapes of the same polytope to be a compression (respectively a weak compression), meaning a distance decreasing (respectively a distance non-increasing) map between distinct pairs of points. We establish that there is a partial order on the space of shapes given by the relation of having a weak compression map between pairs of shapes. Finally, we construct a compression metric on the projective shape space of a polytope; the space of convex Euclidean realizations modulo rigid motions and homothety. For the projective space shape of a simplex, we show that the compression metric is complete. For general polytopes, we establish that the projective shape space has a natural completion given by the projective shape space of weakly convex realizations.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2506.04442",
+      "version": 1,
+      "title": "Geometric Constraints in Link Isotopy",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2025-06-04T20:53:24Z",
+      "updated": "2025-06-04T20:53:24Z",
+      "abstract": "We prove the existence of families of distinct isotopy classes of physical unknots through the key concept of parametrised thickness. These unknots have prescribed length, tube thickness, a uniform bound on curvature, and cannot be disentangled into a thickened round circle by an isotopy that preserves these constraints throughout. In particular, we establish the existence of \\emph{gordian unknots}: embedded tubes that are topologically trivial but geometrically locked, confirming a long-standing conjecture. These arise within the space $\\mathcal{U}_1$ of thin unknots in $\\mathbb{R}^3$, and persist across a stratified family $\\{ \\mathcal{U}_τ\\}_{τ\\in [0,2]}$, where $τ$ denotes the tube diameter, or thickness. The constraints on curvature and self-distance fragment the isotopy class of the unknot into infinitely many disconnected components, revealing a stratified structure governed by geometric thresholds. This unveils a rich hierarchy of geometric entanglement within topologically trivial configurations.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2506.04403",
+      "version": 1,
+      "title": "Profiles of Critical Flat Ribbon Knots",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2025-06-04T19:37:58Z",
+      "updated": "2025-06-04T19:37:58Z",
+      "abstract": "The main open problem in geometric knot theory is to provide a tabulation of knots based on an energy criterion, with the goal of presenting this tabulation in terms of global energy minimisers within isotopy classes, often referred to as ideal knots. Recently, the first examples of minimal length diagrams and their corresponding length values have been determined by Ayala, Kirszenblat, and Rubinstein. This article is motivated by the scarcity of examples despite several decades of intense research. Here, we compute the minimal ribbonlength for some well-known knot diagrams, including the Salomon knot and the Turk's head knot. We also determine the minimal ribbonlength for the granny knot and square knot using a direct method. We conclude by providing the ribbonlength for infinite classes of critical ribbon knots, along with conjectures aimed at relating ribbonlength to knot invariants in pursuit of a metric classification of knots.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2502.08499",
+      "version": 1,
+      "title": "Gordian Unlinks",
+      "authors": [
+        "José Ayala",
+        "Joel Hass"
+      ],
+      "published": "2025-02-12T15:33:55Z",
+      "updated": "2025-02-12T15:33:55Z",
+      "abstract": "This paper gives the first examples of gordian unlinks. The components of these unlinks cannot be separated while maintaining constant length and thickness. We construct infinite families of 2-component gordian unlinks and also construct $n$-component gordian unlinks for each $n \\geq 2$.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2310.14846",
+      "version": 3,
+      "title": "Thin Gordian Unlinks",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2023-10-23T12:11:44Z",
+      "updated": "2025-06-04T19:20:30Z",
+      "abstract": "A gordian unlink is a finite number of unknots that are not topologically linked, each with prescribed length and thickness, and that cannot be disentangled into the trivial link by an isotopy preserving length and thickness throughout. In this note, we provide the first examples of gordian unlinks. As a consequence, we identify the existence of isotopy classes of unknots that differ from those in classical knot theory. More generally, we present a one-parameter family of gordian unlinks with thickness ranging in $[1,2)$ and absolute curvature bounded by 1, concluding that thinner normal tubes lead to different rope geometries than those previously considered. Knots or links in the one-parameter model introduced here are called thin knots or links. When the thickness is equal to 2, we obtain the standard model for geometric knots, also called thick knots.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": "Accepted for publication in Proceedings A of the Royal Society of Edinburgh"
+    },
+    {
+      "id": "2005.13168",
+      "version": 1,
+      "title": "Immersed flat ribbon knots",
+      "authors": [
+        "José Ayala",
+        "David Kirszenblat",
+        "J. Hyam Rubinstein"
+      ],
+      "published": "2020-05-27T05:31:44Z",
+      "updated": "2020-05-27T05:31:44Z",
+      "abstract": "We study the minimum ribbonlength for immersed planar ribbon knots and links. Our approach is to embed the space of such knots and links into a larger more tractable space of disk diagrams. When length minimisers in disk diagram space are ribbon, then these solve the ribbonlength problem. We also provide examples when minimisers in the space of disk diagrams are not ribbon and state some conjectures. We compute the minimal ribbonlength of some small knot and link diagrams and certain infinite families of link diagrams. Finally we present a bound for the number of crossings for a diagram yielding the minimum ribbonlength of a knot or link amongst all diagrams.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "Isr. J. Math. (2025)",
+      "doi": "10.1007/s11856-025-2810-6",
+      "comment": ""
+    },
+    {
+      "id": "1501.07509",
+      "version": 2,
+      "title": "Topological dynamics on finite directed graphs",
+      "authors": [
+        "José Ayala",
+        "Wolfgang Kliemann"
+      ],
+      "published": "2015-01-29T16:53:15Z",
+      "updated": "2016-03-22T18:27:39Z",
+      "abstract": "In this work we establish that finite directed graphs give rise to semiflows on the power set of their nodes. We analyze the topological dynamics for semiflows on finite directed graphs by characterizing Morse decompositions, recurrence behavior and attractor-repeller pairs under weaker assumptions. As is expected, the discrete metric plays an important role in our constructions and their consequences. The connections between the semiflow, graph theory and Markov chains are here explored. We lay the foundation for a dynamical systems approach to hybrid systems with Markov chain type perturbations.",
+      "primaryCategory": "math.DS",
+      "categories": [
+        "math.DS"
+      ],
+      "journalRef": "Topology and its Applications v. 241, 1: 45-362, 2018",
+      "doi": "",
+      "comment": "29 pages"
+    },
+    {
+      "id": "1404.4378",
+      "version": 2,
+      "title": "On the topology of the spaces of curvature constrained plane curves",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2014-04-16T20:24:15Z",
+      "updated": "2015-11-02T17:05:53Z",
+      "abstract": "It is well known that plane curves with the same endpoints are homotopic. An analogous claim for plane curves with the same endpoints and bounded curvature still remains open. In this work we find necessary and sufficient conditions for two plane curves with bounded curvature to be deformed, one to another, by a continuous one-parameter family of curves also having bounded curvature. We conclude that the space of these curves has either one or two connected components, depending on the distance between the endpoints. The classification theorem here presented answers a question raised in 1961 by L. E. Dubins.",
+      "primaryCategory": "math.GT",
+      "categories": [
+        "math.GT"
+      ],
+      "journalRef": "Advances in Geometry, Vol 17, No 3, pp.283-292, 2017",
+      "doi": "",
+      "comment": "To appear in Advances in Geometry"
+    },
+    {
+      "id": "1403.5314",
+      "version": 3,
+      "title": "The classification of homotopy classes of bounded curvature paths",
+      "authors": [
+        "José Ayala",
+        "J. Hyam Rubinstein"
+      ],
+      "published": "2014-03-19T19:32:42Z",
+      "updated": "2015-11-02T17:22:22Z",
+      "abstract": "A bounded curvature path is a continuously differentiable piecewise $C^2$ path with bounded absolute curvature that connects two points in the tangent bundle of a surface. In this note we give necessary and sufficient conditions for two bounded curvature paths, defined in the Euclidean plane, to be in the same connected component while keeping the curvature bounded at every stage of the deformation. Following our previous results here we finish a program started by Lester Dubins in 1961.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG"
+      ],
+      "journalRef": "Israel Journal of Mathematics, Vol. 213, No 1, pp 79-107, 2016",
+      "doi": "",
+      "comment": "To appear in the Israel Journal of Mathematics. arXiv admin note: substantial text overlap with arXiv:1403.4930, arXiv:1403.4911"
+    },
+    {
+      "id": "1403.4911",
+      "version": 3,
+      "title": "Non-uniqueness of the homotopy class of bounded curvature paths",
+      "authors": [
+        "José Ayala",
+        "Hyam Rubinstein"
+      ],
+      "published": "2014-03-19T19:05:49Z",
+      "updated": "2017-05-05T00:04:57Z",
+      "abstract": "A bounded curvature path is a continuously differentiable piecewise $C^2$ path with a bounded absolute curvature that connects two points in the tangent bundle of a surface. In this work, we analyze the homotopy classes of bounded curvature paths for points in the tangent bundle of the Euclidean plane. We show the existence of connected components of bounded curvature paths that do not correspond to those under (regular) homotopies obtaining the first results in the theory outside optimality. An application to robotics is presented.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG",
+        "math.GT"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": "22 pages, 14 figures"
+    },
+    {
+      "id": "1403.4930",
+      "version": 4,
+      "title": "Length minimising bounded curvature paths in homotopy classes",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2014-03-19T18:39:00Z",
+      "updated": "2015-11-02T17:15:26Z",
+      "abstract": "Choose two points in the tangent bundle of the Euclidean plane $(x,X),(y,Y)\\in T{ \\mathbb R}^2$. In this work we characterise the immersed length minimising paths with a prescribed bound on the curvature starting at $x$, tangent to $X$; finishing at $y$, tangent to $Y$, in each connected component of the space of paths with a prescribed bound on the curvature from $(x,X)$ to $(y,Y)$.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG",
+        "math.GT"
+      ],
+      "journalRef": "Topology and its Applications, v.193:140-151, 2015",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "1403.4899",
+      "version": 2,
+      "title": "A geometric approach to shortest bounded curvature paths",
+      "authors": [
+        "José Ayala",
+        "David Kirszenblat",
+        "J. Hyam Rubinstein"
+      ],
+      "published": "2014-03-19T18:13:51Z",
+      "updated": "2015-08-27T17:17:50Z",
+      "abstract": "Consider two elements in the tangent bundle of the Euclidean plane $(x,X),(y,Y)\\in T{\\mathbb R}^2$. In this work we address the problem of characterizing the paths of bounded curvature and minimal length starting at $x$, finishing at $y$ and having tangents at these points $X$ and $Y$ respectively. This problem was first investigated in the late 50's by Lester Dubins. In this note we present a constructive proof of Dubins' result giving special emphasis on the geometric nature of this problem.",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG",
+        "math.GT"
+      ],
+      "journalRef": "Communications in Analysis and Geometry, Vol. 26, No 4, 2018",
+      "doi": "",
+      "comment": "14 pages, 8 figures"
+    }
+  ]
+}
