@@ -27,9 +27,14 @@ await mkdir(dist, { recursive: true });
 await cp(new URL("src/assets/", root), new URL("assets/", dist), { recursive: true });
 
 // Register pages here. Each page is a function (ctx) => {file, title, body}.
+// A nav item with "hidden": true in content/site.json is neither listed nor built.
+const hidden = new Set(site.nav.filter((n) => n.hidden).map((n) => n.href));
 const pages = [about, research, writing];
+let built = 0;
 for (const make of pages) {
   const page = make(ctx);
+  if (hidden.has(page.file)) continue;
+  built++;
   const out = layout({ site, page, body: page.body });
   await writeFile(new URL(page.file, dist), out.toString());
 }
@@ -37,4 +42,4 @@ for (const make of pages) {
 const nf = layout({ site, page: { file: "404.html", title: "Not found", description: site.description }, body: html`<section class="wrap page-head"><h1>Page not found</h1><p class="lead"><a href="index.html">Back to the home page</a></p></section>`, math: false });
 await writeFile(new URL("404.html", dist), nf.toString());
 await writeFile(new URL(".nojekyll", dist), "");
-console.log(`Built ${pages.length + 1} pages → ${fileURLToPath(dist)}`);
+console.log(`Built ${built + 1} pages → ${fileURLToPath(dist)}`);

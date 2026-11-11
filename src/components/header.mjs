@@ -6,7 +6,7 @@ export function header(site, currentFile) {
       ${currentFile === "index.html" ? "" : html`<a class="brand" href="index.html">${site.name}</a>`}
       <nav aria-label="Main">
         <ul>
-          ${site.nav.map(
+          ${site.nav.filter((item) => !item.hidden).map(
             (item) => html`<li><a href="${item.href}"${item.href === currentFile ? html` aria-current="page"` : ""}>${item.label}</a></li>`,
           )}
         </ul>

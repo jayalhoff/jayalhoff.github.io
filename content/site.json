@@ -20,7 +20,8 @@
     },
     {
       "label": "Research",
-      "href": "research.html"
+      "href": "research.html",
+      "hidden": true
     }
   ],
   "links": []
