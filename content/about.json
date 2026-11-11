@@ -2,7 +2,7 @@
   "eyebrow": "Mathematician",
   "headline": "Geometry under constraint.",
   "intro": [
-    "I am a mathematician at the Universidad de Tarapacá in Iquique, Chile. My research lies at the intersection of geometric topology, variational geometry, and rigidity theory.",
+    "I am José Ayala Hoffmann, a mathematician at the University of Tarapacá based in the coastal desert of Iquique, Chile. My research lies at the intersection of geometric topology, variational geometry, and rigidity theory.",
     "I am developing a unified variational method for disk diagrams, finite packing problems, and perimeter minimisation under geometric constraints, with applications to critical ribbon loops and, hopefully, the Gordian unknot conjecture. The conjecture concerns the existence of geometrically distinct unknots that are topologically trivial yet remain locked under curvature and thickness constraints.",
     "I regard rigidity under curvature as an obstruction phenomenon that can be analysed variationally: configurations are organised into contact strata determined by active disk contacts, and admissible deformations are governed by these constraints. Combining explicit geometric constructions, first- and second-order variational analysis, and combinatorial stratification by contact graphs gives a systematic way to study rigidity, flexibility, and minimality in constrained planar and spatial geometric systems."
   ],

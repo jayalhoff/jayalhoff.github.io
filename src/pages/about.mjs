@@ -9,7 +9,7 @@ export function about({ site, about }) {
     body: html`
     <section class="hero wrap">
       <div class="hero-text">
-        <h1>${site.name}</h1>
+        <h1 class="sr-only">${site.name}</h1>
         ${about.intro.map((p) => html`<p>${inline(p)}</p>`)}
       </div>
       <figure class="hero-photo">
