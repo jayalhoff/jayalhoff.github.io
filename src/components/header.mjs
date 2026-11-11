@@ -3,7 +3,6 @@ import { html } from "../lib/html.mjs";
 export function header(site, currentFile) {
   return html`<header class="site-header">
     <div class="wrap bar">
-      ${currentFile === "index.html" ? "" : html`<a class="brand" href="index.html">${site.name}</a>`}
       <nav aria-label="Main">
         <ul>
           ${site.nav.filter((item) => !item.hidden).map(

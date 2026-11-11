@@ -1,7 +1,7 @@
 {
   "_comment": "Configuration for scripts/fetch-arxiv.mjs. 'queries' are arXiv API search_query strings; 'include' adds papers by id; 'exclude' removes false positives (same-name authors).",
   "queries": ["au:\"Ayala Hoffmann\""],
-  "include": [],
+  "include": ["2104.05253", "2104.05206", "2005.13210"],
   "exclude": ["2310.15979"],
   "maxResults": 100
 }

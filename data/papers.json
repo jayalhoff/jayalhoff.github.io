@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T20:22:00.703Z",
+  "fetchedAt": "2026-11-11T01:44:16.583Z",
   "source": "arxiv.org",
   "papers": [
     {
@@ -113,6 +113,65 @@
       "journalRef": "",
       "doi": "",
       "comment": "Accepted for publication in Proceedings A of the Royal Society of Edinburgh"
+    },
+    {
+      "id": "2104.05253",
+      "version": 1,
+      "title": "A Gradient Descent Method for The Dubins Traveling Salesman Problem",
+      "authors": [
+        "David Kirszenblat",
+        "José Ayala",
+        "J. Hyam Rubinstein"
+      ],
+      "published": "2021-04-12T07:40:17Z",
+      "updated": "2021-04-12T07:40:17Z",
+      "abstract": "We propose a combination of a bounding procedure and gradient descent method for solving the Dubins traveling salesman problem, that is, the problem of finding a shortest curvature-constrained tour through a finite number of points in the euclidean plane. The problem finds applications in path planning for robotic vehicles and unmanned aerial vehicles, where a minimum turning radius prevents the vehicle from taking sharp turns. In this paper, we focus on the case where any two points are separated by at least four times the minimum turning radius, which is most interesting from a practical standpoint. The bounding procedure efficiently determines the optimal order in which to visit the points. The gradient descent method, which is inspired by a mechanical model, determines the optimal trajectories of the tour through the points in a given order, and its computation time scales linearly with the number of points. In experiments on nine points, the bounding procedure typically explores no more than a few sequences before finding the optimal sequence, and the gradient descent method typically converges to within 1\\% of optimal in a single iteration.",
+      "primaryCategory": "math.OC",
+      "categories": [
+        "math.OC",
+        "math.MG"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2104.05206",
+      "version": 1,
+      "title": "On the Blaschke rolling disk theorem",
+      "authors": [
+        "José Ayala"
+      ],
+      "published": "2021-04-12T05:04:59Z",
+      "updated": "2021-04-12T05:04:59Z",
+      "abstract": "The Blaschke rolling disk theorem is a classical inclusion principle in differential geometry. This states that a planar convex domain whose boundary is a curve of class $C^2$ with (signed) curvature not exceeding a positive constant $κ$ is such that for each point on its boundary there exists a disk of radius ${1}/κ$ tangent to the boundary included in the closure of the domain. We describe geometric conditions relying exclusively on curvature and independent of any kind of convexity that allows us to give necessary and sufficient conditions for the existence of rolling disks for planar domains that are not necessarily convex. We finish by presenting an algorithm leading to a decomposition of any planar domain into a finite number of maximal rolling regions.",
+      "primaryCategory": "math.DG",
+      "categories": [
+        "math.DG",
+        "math.MG"
+      ],
+      "journalRef": "",
+      "doi": "",
+      "comment": ""
+    },
+    {
+      "id": "2005.13210",
+      "version": 1,
+      "title": "Census of bounded curvature paths",
+      "authors": [
+        "Jean Díaz",
+        "José Ayala"
+      ],
+      "published": "2020-05-27T07:16:23Z",
+      "updated": "2020-05-27T07:16:23Z",
+      "abstract": "A bounded curvature path is a continuously differentiable piece-wise $C^2$ path with bounded absolute curvature connecting two points in the tangent bundle of a surface. These paths have been widely considered in computer science and engineering since the bound on curvature models the trajectory of the motion of robots under turning circle constraints. Analyzing global properties of spaces of bounded curvature paths is not a simple matter since the length variation between length minimizers of arbitrary close endpoints or directions is in many cases discontinuous. In this note, we develop a simple technology allowing us to partition the space of spaces of bounded curvature paths into one-parameter families. These families of spaces are classified in terms of the type of connected components their elements have (homotopy classes, isotopy classes, or isolated points) as we vary a parameter defined in the reals. Consequently, we answer a question raised by Dubins (Pac J Math 11(2), 1961).",
+      "primaryCategory": "math.MG",
+      "categories": [
+        "math.MG"
+      ],
+      "journalRef": "Geometriae Dedicata, Vol. 204, 2020",
+      "doi": "",
+      "comment": ""
     },
     {
       "id": "2005.13168",
